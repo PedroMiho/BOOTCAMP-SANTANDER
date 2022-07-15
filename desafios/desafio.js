@@ -9,8 +9,8 @@ for (let i = 0; i < N; i++) {
 
     let jogador2array = ["Pedra", "Ataque", "Papel", "Pedra", "Papel", "Ataque", "Papel", "Pedra", "Ataque"]
 
-    let jogador1 = jogador1array[i];
-    let jogador2 = jogador2array[i];
+    let jogador1 = jogador1array[i].toLowerCase();
+    let jogador2 = jogador2array[i].toLowerCase();
 
 
     if(jogador1.toUpperCase() === "ATAQUE" && jogador2.toUpperCase() === "ATAQUE") {
